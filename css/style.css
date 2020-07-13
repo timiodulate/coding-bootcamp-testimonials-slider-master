@@ -122,6 +122,9 @@ p {
         right: 0;
         z-index: -1;
     }
+    .nav {
+        z-index: 9999;
+    }
     .text {
         width: 62%;
     }
@@ -134,9 +137,6 @@ p {
     #name {
         margin-right: 10px;
     }
-    .nav {
-        z-index: 9999;
-    }   
 }
 
 /* SM - Small Screen */
