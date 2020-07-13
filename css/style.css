@@ -120,7 +120,7 @@ p {
         width: 50%;
         position: absolute;
         right: 0;
-        z-index: -999;
+        z-index: -1;
     }
     .text {
         width: 62%;
@@ -134,6 +134,9 @@ p {
     #name {
         margin-right: 10px;
     }
+    .nav {
+        z-index: 9999;
+    }   
 }
 
 /* SM - Small Screen */
